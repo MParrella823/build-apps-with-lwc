@@ -9,7 +9,7 @@ export default class HelloWebComponent extends LightningElement {
 
   currentDate = new Date().toDateString();
   get capitalizedGreeting() {
-    return `Hello ${this.greeting.toUpperCase()}, ya old SOAB!`;
+    return `Hello ${this.greeting.toUpperCase()}!`;
   }
 
 }
